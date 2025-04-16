@@ -1,0 +1,566 @@
+.section-banner-appBk-content img {
+    width: 100%;
+}
+
+/* ===================section1 section2  appBk =================== */
+.section1-appBk {
+    background: rgb(247, 126, 51);
+}
+
+.section2-appBk {
+    background: var(--header-color);
+}
+
+.section1-appBk-title,
+.section2-appBk-title {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 8px;
+}
+
+.section1-appBk-title h2,
+.section2-appBk-title h2 {
+    font-size: 50px;
+    margin: 3.5rem 40px 0;
+    color: var(--text-color1);
+
+}
+
+.section1-appBk-content,
+.section2-appBk-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    gap: 60px;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.section1-box-itens,
+.section2-box-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.section1-appBk-content img {
+    width: 45%;
+}
+
+.section2-appBk-content img {
+    width: 80%;
+}
+
+.section1-box-itens h2,
+.section2-box-itens h2 {
+    width: 140%;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin: 1.5rem 0;
+    color: var(--text-color1);
+}
+
+.section2-box-itens h2 {
+    margin: 5px 0;
+}
+
+.text-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+/*=================== end section1 section2  appBk==================  */
+
+
+
+
+
+/*========section 3carousel=================== */
+
+.section3-carousel-appBk {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.section3-carousel-title {
+    padding: 3rem 0;
+}
+
+.section3-carousel-title h2 {
+    font-size: 50px;
+    margin: 3.5rem 40px 0;
+    color: var(--text-color1);
+}
+
+.section3-carousel-title p {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin: 1rem 40px 0;
+}
+
+.section3-carousel-card {
+    width: 100%;
+}
+
+.carousel-card-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 4.5rem;
+}
+
+
+
+.carousel-card-itens {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--header-color);
+
+}
+
+.carousel-card-itens img {
+    width: 90%;
+    height: auto;
+}
+
+
+.carousel-card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.8px solid #ddd;
+    padding: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.carousel-card-text {
+    display: flex;
+    max-width: 170px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.carousel-card-text h3 {
+    text-align: left;
+    font-size: 16.99px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: var(--text-color1);
+}
+
+.carousel-card-price {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-card-price .symbol-real {
+    color: var(--primary-color);
+    margin-right: 3px;
+    font-size: 18px;
+}
+
+.carousel-card-price .value-real {
+    font-size: 45px;
+    color: var(--primary-color);
+}
+
+.carousel-card-price .value-centes {
+    color: var(--primary-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -1rem;
+}
+
+/* ================arows================ */
+.slick-prev,
+.slick-next {
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.slick-next {
+    right: 30px;
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: "slick";
+    font-size: 30px;
+    line-height: 1;
+    color: white;
+}
+
+/* ================end arows================ */
+
+/* =========end section3 carousel================ */
+
+
+/* ================section4 paymnets======== */
+
+.section4-payments-appBk {
+    background: var(--header-color);
+}
+
+.section4-payments-appBk-container {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.section4-payments-appBk-container img {
+    margin-top: -5.5rem;
+}
+
+.section4-payments-appBk-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5.5rem;
+}
+
+.section4-payments-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.section4-payments-title h2 {
+    font-size: 50px;
+    color: var(--text-color1);
+}
+
+.section4-payments-title p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    width: 100%;
+    max-width: 750px;
+    margin: 1.5rem 0;
+    color: var(--text-color1);
+}
+
+
+
+.payments-flags-center {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.side-flags1 img,
+.side-flags2 img,
+.side-flags3 img {
+    margin-left: 1rem;
+}
+
+.text-payments {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin: 2rem 0;
+    font-weight: 600;
+    color: #000000de;
+}
+
+/* ================end section4 paymnets */
+
+
+
+
+/* ============section5 faq====================== */
+
+.section5-faq-appBk {
+    margin-bottom: 5.5rem;
+}
+
+.section5-faq-appBk-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 8px;
+}
+
+.section5-faq-appBk-title h2 {
+    font-size: 50px;
+    margin-top: 2.5rem;
+    color: var(--text-color1);
+}
+
+.faq-appBk-acordion {
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.faq-appBk-acordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    margin: 1.5rem 0;
+    background: var(--header-color);
+    border-radius: 10px;
+}
+
+summary {
+    font-size: 16px;
+    color: var(--text-color1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 550;
+}
+
+.faq-appBk-acordion-header details p {
+    margin: 1rem 0;
+    list-style: none;
+}
+
+.faq-appBk-acordion-header summary {
+    list-style: none;
+}
+
+/* ============ end section5 faq====================== */
+
+
+
+/* =====================section 6 delivery============== */
+
+.section6-appBk-delivery {
+    padding: 10rem;
+    background: var(--header-color);
+}
+
+.section6-appBk-delivery-container {
+    display: flex;
+    align-items: center;
+    max-width: 1366px;
+    width: 100%;
+    margin-bottom: 4.5rem;
+    margin: auto;
+    gap: 1.5rem;
+}
+
+.section6-appBk-delivery-container img {
+    width: 15%;
+}
+
+.section6-appBk-delivery-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+}
+
+.section6-appBk-delivery-content h2 {
+    text-align: left;
+    font-size: 50px;
+    color: var(--text-color1);
+}
+
+.section6-appBk-delivery-content p {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+
+/* =====================end section 6 delivery============== */
+
+
+
+/* =================banners hidden========*/
+
+.banner-appBk-img-dektop,
+.banner-appBk-img-dektop {
+    display: block !important;
+}
+
+.banner-appBk-img-mobile,
+.banner-appBk-img-mobile {
+    display: none !important;
+}
+
+/* =================end banners hidden========*/
+
+
+
+/* =======media queries======== */
+@media (max-width: 768px) {
+
+    .banner-appBk-img-mobile,
+    .banner-appBk-img-mobile {
+        display: block !important;
+    }
+
+    .banner-appBk-img-dektop,
+    .banner-appBk-img-dektop {
+        display: none !important;
+    }
+
+
+
+    .payments-image-cell {
+        display: none !important;
+    }
+
+
+
+    .section4-payments-title {
+        text-align: center;
+    }
+
+    .payments-flags-center {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .section1-appBk-content,
+    .section2-appBk-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        gap: 60px;
+        width: 100%;
+        max-width: 1280px;
+        margin: auto;
+        padding: 5px;
+    }
+
+    .section1-appBk-content img {
+        width: 30%;
+    }
+
+    .section1-box-itens h2,
+    .section2-box-itens h2 {
+        width: 100%;
+        letter-spacing: 1px;
+        font-size: 25px;
+    }
+
+    .btn-appbk-mobile-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .btn-appbk-mobile {
+        width: 300px;
+        padding: 15px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        color: var(--text-color2);
+        font-size: 20px;
+        cursor: pointer;
+        background: var(--primary-color);
+    }
+
+    .btn-appbk-mobile {
+        display: block !important;
+    }
+
+
+    /* ================ carousel media queries ===================== */
+
+    .carousel-card-area {
+        width: 280px !important;
+    }
+
+    .carousel-card-text h3 {
+        font-size: 16px;
+    }
+
+    .carousel-card-price {
+        display: flex;
+        align-items: center;
+    }
+
+    .carousel-card-price .symbol-real {
+        color: var(--primary-color);
+        margin-right: 3px;
+        font-size: 18px;
+    }
+
+    .carousel-card-price .value-real {
+        font-size: 30px;
+        color: var(--primary-color);
+    }
+
+    .carousel-card-price .value-centes {
+        color: var(--primary-color);
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    /* ============section  5 paymnes========= */
+
+    .section5-faq-appBk-title {
+        display: flex;
+        text-align: center;
+    }
+
+
+    /* ================section 6 delivery */
+
+    .section6-appBk-delivery {
+        padding: 1.5rem;
+        background: var(--header-color);
+    }
+
+    .appBk-delivery-image {
+        display: none !important;
+    }
+
+    .section6-appBk-delivery-content h2 {
+        text-align: center;
+    }
+
+    .section6-appBk-delivery-content p {
+        text-align: center;
+    }
+
+}

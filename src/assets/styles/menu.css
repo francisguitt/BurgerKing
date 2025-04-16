@@ -1,0 +1,210 @@
+.section-banner-menu-content img {
+    width: 100%;
+}
+
+/* ================arows================ */
+.slick-prev,
+.slick-next {
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.slick-next {
+    right: 30px;
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: "slick";
+    font-size: 30px;
+    line-height: 1;
+    color: white;
+}
+
+/* ================end arows================ */
+
+
+
+/* =====================cards menu================ */
+.section-menu {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.section-menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.title-menu,
+.subtitle-menu {
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--text-color1);
+}
+
+.subtitle-menu {
+    font-size: 30px;
+    margin-top: 1.5rem;
+}
+
+.btn-filter-menu {
+    width: 350px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    background: var(--primary-color);
+    padding: 16px;
+}
+
+.filter-text-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color2);
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.btn-menu:hover {
+    background-color: #c44127;
+}
+
+
+
+/* ==============cards=============== */
+
+
+.section-menu-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 5.5rem;
+    /* afasta do bottom*/
+}
+
+
+.menu-card-area {
+    width: 100%;
+    overflow: hidden;
+    border: 0.5px solid var(--text-color2);
+    border-radius: 10px;
+}
+
+.menu-card-area:hover {
+    cursor: pointer;
+}
+
+.menu-card-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 75%;
+    padding: 0;
+    background-color: var(--header-color);
+}
+
+.menu-card-itens img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background: #fff;
+}
+
+.menu-card-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-card-text h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: var(--text-color1);
+}
+
+
+/* ===================end cards menu============== */
+
+
+
+/* =================banners hidden========*/
+.banner-menu-img-dektop,
+.banner-menu-img-dektop {
+    display: block !important;
+}
+
+.banner-menu-img-mobile,
+.banner-menu-img-mobile {
+    display: none !important;
+}
+
+
+/* =================end banners hidden========*/
+
+
+
+@media (max-width: 768px) {
+
+    .banner-menu-img-mobile,
+    .banner-menu-img-mobile {
+        display: block !important;
+    }
+
+    .banner-menu-img-dektop,
+    .banner-menu-img-dektop {
+        display: none !important;
+    }
+
+
+    .section-menu-card {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 4fr));
+        gap: 20px;
+        width: 100%;
+        max-width: 1280px;
+        margin: auto;
+        margin-bottom: 5.5rem;
+
+    }
+
+    .section-menu-content {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .menu-card-itens{
+        height: 50%;
+    }
+    .menu-card-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
