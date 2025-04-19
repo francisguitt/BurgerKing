@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Flamer Bold';
+    src: url('../../assets/fonts/Flame-Regular.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* 
+  SE FOR USAR O FORMATO DA FONT OTF , USAR DESSA FORMA ABAIXO
+  @font-face {
+    font-family: 'Flamer Bold';
+    src: url('../assets/fonts/Flame-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  */
+
+:root {
+    --header-color: #f5ebdc;
+    --footer-color: #502314;
+    --primary-color: #d62300;
+    --secundary-color: #502314;
+    --text-color1: #502314;
+    --text-color2: #ece8e8;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li,
+    button,
+    a strong,
+    span {
+        font-family: 'Flamer Bold', sans-serif;
+    }
+}
+
+
+/* STYLES FOR HEADER GLOBALS */
+.header-globals {
+    background: var(--header-color);
+    padding: 15px;
+}
+
+.nav-globals {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    justify-content: center;
+    ba
+}
+
+.ul-globals {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.side-left-logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -1rem;
+    margin-top: -1rem;
+    width: 25%;
+}
+
+.side-right-routes {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 1px;
+}
+
+
+.ul-globals li {
+    list-style: none;
+}
+
+
+.ul-globals li a {
+    margin: 2rem;
+    font-size: 21px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+
+/* ===============STYLES FOR FOOTER GLOBALS======================= */
+.footer-home {
+    background-color: var(--footer-color);
+    margin-top: -2.3rem;
+    padding: 10px;
+}
+
+.brand-home {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.brand-home img {
+    margin-top: 2rem;
+}
+
+.footer-home-area {
+    display: flex;
+    justify-content: center;
+}
+
+
+.external-links-footer-home {
+    display: flex;
+    flex-direction: column;
+}
+
+.external-links-footer-home-content,
+.external-links-footer-home-content-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.external-links-footer-home-content li {
+    list-style: none;
+    margin: 16px;
+}
+
+.external-links-footer-home-content li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--text-color2);
+}
+
+/*====================linha de divisão================= */
+.dividing-line {
+    width: 100%;
+    height: 1px;
+    /* Define a altura da linha */
+    background-color: #fff;
+    margin-top: 1.5rem
+}
+
+
+.external-links-footer-home-content-bottom li {
+    list-style: none;
+}
+
+.external-links-footer-home-content-bottom li a {
+    color: var(--text-color2);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.external-links-footer-home-content-bottom li a:hover {
+    text-decoration: underline;
+}
+
+
+.socials-network-footer-home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.socials-network-footer-home h3 {
+    margin: 1.5rem;
+    color: var(--text-color2);
+}
+
+.icons-socials-network-footer-home {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icons-socials-network-footer-home img {
+    width: 35px;
+}
+
+.socials-network-footer-home h4 {
+    color: var(--text-color2);
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+}
+
+/* ============================================================== */
+
+
+
+
+/* MEDIA QUERIES  HEADER GLOBALS*/
+@media(max-width: 1024px) {
+    .nav-globals {
+        display: none;
+    }
+
+    .external-links-footer-home-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .external-links-footer-home-content-bottom {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .header-globals {
+        padding: 3.5rem;
+    }
+}
